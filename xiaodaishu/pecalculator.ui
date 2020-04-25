@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PEcalculator</class>
+ <widget class="QMainWindow" name="PEcalculator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>232</width>
+    <height>357</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>体测计算</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="text">
+       <string>肺活量（毫升）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QPushButton" name="pushButton_score">
+      <property name="text">
+       <string>体测成绩</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="height"/>
+    </item>
+    <item row="12" column="1">
+     <widget class="QLineEdit" name="score"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="text">
+       <string>立定跳远（厘米）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="text">
+       <string>坐位体前屈（厘米）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="zuo_wtqq"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="text">
+       <string>体重(千克)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="text">
+       <string>一分钟仰卧起坐（次）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="longjump"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="text">
+       <string>引体向上（次）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="min_ywqz"/>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="nailipao"/>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="yin_txs"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="text">
+       <string>身高(米)</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="weight"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QComboBox" name="sex">
+      <item>
+       <property name="text">
+        <string>大学男生</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大学女生</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLineEdit" name="bmi"/>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="halfhundred">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="grand">
+      <item>
+       <property name="text">
+        <string>大一 大二</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大三 大四</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="fei_hl"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="text">
+       <string>耐力跑（分 秒）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="text">
+       <string>50米跑（秒）</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QPushButton" name="pushButton_bmi">
+      <property name="text">
+       <string>BMI指数</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0">
+     <widget class="QPushButton" name="sure">
+      <property name="text">
+       <string>确定</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QPushButton" name="cancel">
+      <property name="text">
+       <string>返回</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
