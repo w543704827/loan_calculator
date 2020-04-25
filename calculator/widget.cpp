@@ -20,6 +20,10 @@ Widget::~Widget()
 
 void Widget::on_pushButton_2_clicked()
 {
+    int row_num = ui -> tableWidget -> rowCount();
+    for(int i = 0; i < row_num; i++){
+        ui -> tableWidget -> removeRow(0);
+    }//删除之前的内容
     int loan_num = 0;
     int loan_year = 0;
     float loan_rate = 0;
@@ -101,6 +105,9 @@ void Widget::on_pushButton_2_clicked()
         break;
     }
     }
-
 }
 
+void Widget::on_pushButton_clicked()
+{
+    this -> close();
+}
