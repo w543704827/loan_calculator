@@ -19,6 +19,8 @@ private slots:
     void on_pushButton_2_clicked();//开始计算
 
 
+    void on_pushButton_clicked();
+
 private:
     Ui::Widget *ui;
 
